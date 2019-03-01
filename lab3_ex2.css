@@ -7,11 +7,13 @@
   margin: auto;
 }
 
-/*.mySlides
+.mySlides
 {
   display: none;
 }
-*/
+
+img {vertical-align: middle;}
+
 .prev, .next
 {
   cursor: pointer;
