@@ -5,13 +5,20 @@
   <body>
     <div class="slideshow-container">
       <div class="mySlides">
-        <div class="numbertext">1 / 5</div>
         <img src="Assets/Standing_Around.jpg" id="Picture1" width="900" height="600" alt="Standing Around">
       </div>
 
       <div class="mySlides">
-        <div class="numbertext"> 2 / 5</div>
         <img src="Assets/Walking.jpg" id="Picture2" width="900" height="600" alt="Walking">
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 	</body>
 </html>
