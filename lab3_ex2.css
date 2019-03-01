@@ -12,8 +12,6 @@
   display: none;
 }
 
-img {vertical-align: middle;}
-
 .prev, .next
 {
   cursor: pointer;
