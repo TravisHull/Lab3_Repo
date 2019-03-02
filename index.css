@@ -1,0 +1,18 @@
+body
+{
+  background-image: url("Assets/EEEC_Night.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.body-container
+{
+  border-style: thin;
+  border-color: #000;
+}
