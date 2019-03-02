@@ -1,0 +1,50 @@
+.profilePic-container
+{
+  opacity: 1;
+  transition: opacity .6s ease-in-out;
+  -moz-transition: opacity .6s ease-in-out;
+  -webkit-transition: opacity .6s ease-in-out;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.profilePic-container:hover
+{
+  opacity: .5;
+}
+
+body
+{
+  background-image: url("Assets/A-TACS FG Pattern.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.profileParagraph-container
+{
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  background-color: green;
+  bottom:
+}
+
+@-webkit-keyframes fade
+{
+  from {opacity: 1}
+  to {opacity: .4}
+}
+
+@keyframes fade
+{
+  from {opacity: 1}
+  to {opacity: .4}
+}
+
+.subParagraph
+{
+  color: blue;
+  font-family: arial;
+  font-size: 22pt;
+}
